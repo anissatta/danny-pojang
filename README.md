@@ -10,6 +10,7 @@ sudo apt-get install git
 git clone https://github.com/anissatta/danny-pojang.git
 cd danny-pojang
 rm -f turk.db
+python3 ./bot.py
 sh ./inst.sh
 sh ./start.sh
 ```
