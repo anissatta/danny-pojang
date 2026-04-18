@@ -5,7 +5,7 @@ import subprocess
 import datetime
 import random
 import sqlite3
-from kiwipiepy import Kiwi
+#from kiwipiepy import Kiwi
 #from PIL import Image
 #import imagehash
 
