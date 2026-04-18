@@ -235,7 +235,7 @@ try:
         # lang: ko (mostly) or others. 
         subprocess.run(["./mk.sh", f_title])
 
-    subprocess.run(["right/getfed.sh", f_url, f_title, f_lang, f_kiwi])
+    subprocess.run(["right/getfed.sh", f_url, f_title, f_lang, f_title])
     # 26. 3. 27 
     #ihash = imagehash.phash(Image.open("bot_temp.png"))
     # 26. 3. 27 
