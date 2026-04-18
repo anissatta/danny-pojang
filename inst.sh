@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo apt-get update
-sudo apt-get install python3-venv pip
+sudo apt-get install python3-venv pip gawk
 sudo apt-get install ffmpeg gnuplot qiv
 sudo apt-get install imagemagick figlet
 sudo apt-get install wget w3m pup
@@ -11,3 +11,5 @@ cd /home/user
 python3 -m venv py
 source py/bin/activate
 pip install kiwipiepy
+wget git.io/trans
+chmod +x ./trans
