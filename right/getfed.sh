@@ -11,9 +11,9 @@ do_ask() {
 }
 
 do_trans() {
-    which trans || echo "trans command is unavailable"
+    #which trans || echo "trans command is unavailable"
     ret=""
-    ret=$(trans -b $1 "$tit" || trans -b $1 "$tit" || trans -b $1 "$tit")
+    ret=$(/home/user/trans -b $1 "$tit" || trans -b $1 "$tit" || trans -b $1 "$tit")
     echo "${ret}"
 }
 
