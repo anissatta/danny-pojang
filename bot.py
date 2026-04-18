@@ -5,7 +5,7 @@ import subprocess
 import datetime
 import random
 import sqlite3
-#from kiwipiepy import Kiwi
+from kiwipiepy import Kiwi
 #from PIL import Image
 #import imagehash
 
@@ -177,38 +177,39 @@ try:
         #   SECRET  CODE E 2026. 3. 25 
         ###################################### 
 
-    # word (noun only) count using Kiwipiepy. 
     f_kiwi = ""
-    if f_lang == "ko": 
-        cs.execute('''
-            create table if not exists stat1 (
-                word text primary key, 
-                count integer
-            )
-        ''')
-        kiwi = Kiwi()
-        tks = kiwi.tokenize(f_title)
-        for tk in tks: 
-            f_kiwi = f_kiwi + tk.form + " ; "   # 26. 4. 14 
-            if tk.tag == "NNG" or \
-               tk.tag == "NNP" or \
-               tk.tag == "NNB": 
-                w = tk.form
-                cs.execute('''
-                    insert or ignore into stat1 
-                    (word, count) 
-                    values (?, ?)
-                ''', 
-                (w, 0))
-                cs.execute('''
-                    update stat1 
-                    set count = count + 1 
-                    where word = ? 
-                ''', 
-                (w,))
-        f_kiwi = f_kiwi + "(Kiwipiepy로 분석된 일)"
-    else: 
-        pass
+    # word (noun only) count using Kiwipiepy. 
+#    f_kiwi = ""
+#    if f_lang == "ko": 
+#        cs.execute('''
+#            create table if not exists stat1 (
+#                word text primary key, 
+#                count integer
+#            )
+#        ''')
+#        kiwi = Kiwi()
+#        tks = kiwi.tokenize(f_title)
+#        for tk in tks: 
+#            f_kiwi = f_kiwi + tk.form + " ; "   # 26. 4. 14 
+#            if tk.tag == "NNG" or \
+#               tk.tag == "NNP" or \
+#               tk.tag == "NNB": 
+#                w = tk.form
+#                cs.execute('''
+#                    insert or ignore into stat1 
+#                    (word, count) 
+#                    values (?, ?)
+#                ''', 
+#                (w, 0))
+#                cs.execute('''
+#                    update stat1 
+#                    set count = count + 1 
+#                    where word = ? 
+#                ''', 
+#                (w,))
+#        f_kiwi = f_kiwi + "(Kiwipiepy로 분석된 일)"
+#    else: 
+#        pass
 
     # 26. 3. 25 
     cs.execute('''
