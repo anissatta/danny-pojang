@@ -1,7 +1,5 @@
 #!/bin/bash
 
-source /home/user/py/bin/activate
-
 chmod +x ./killtonda.sh
 chmod +x ./newsis.sh
 chmod +x ./dr2.sh
