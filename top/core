@@ -1,0 +1,19 @@
+
+<script>
+document.getElementById('mybody').className = 'GDN1';
+</script>
+<p><span id="ocd">
+SBS뉴스.속보
+</span></p>
+<p><a id="url" href="#">
+https://news.sbs.co.kr/news/endPage.do?news_id=N1008523182&plink=RSSLINK&cooper=RSSREADER
+</a></p>
+<p><h3 class="spfont1">
+"합의 안 되면 또 폭탄 투하…근데 협상 잘 돼 가" 냉온탕
+</h3></p>
+<p><h3 class="spfont1">
+trans command is unavailable
+</h3></p>
+<p><h3>
+미야지마 히로스게: 저는 한국인이 아닌 사람을 다 싫어하고 있습니다. 제가 이런 곳에 있는 건 저의 아마존에서의 매니저이셨고 한국인이신 L씨를 만나고 싶기 때문이랍니다.
+</h3></p>
