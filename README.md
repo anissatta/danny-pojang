@@ -20,3 +20,8 @@ git clone https://github.com/anissatta/danny-pojang.git
 cd danny-pojang
 sh ./init.sh
 ```
+- 잠시 후 새 Terminal App를 여시고...
+```shell
+cd /home/user/danny-pojang
+qiv snap-xl.jpg
+```
