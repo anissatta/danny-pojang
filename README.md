@@ -25,3 +25,5 @@ sh ./init.sh
 cd /home/user/danny-pojang
 qiv snap-xl.jpg
 ```
+- Q Key로 돌아갈 수 있음. 
+- ![fig](fig/5.jpg)
