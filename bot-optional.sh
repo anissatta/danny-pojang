@@ -154,7 +154,7 @@ convert right.png -transparent "#000" right.png
 
 # another one #2. 
 cat /home/user/danny-pojang/top/head$(printf %03d $(($1%42))).html /home/user/danny-pojang/top/core /home/user/danny-pojang/top/tail.html > /home/user/danny-pojang/top/index.html 
-wkhtmltoimage --width 1920 --crop-h 194 /home/user/danny-pojang/top/index.html top.png
+wkhtmltoimage --zoom 0.5 --width 1920 --crop-h 194 /home/user/danny-pojang/top/index.html top.png
 # make semi-transparent 
 convert top.png -alpha set -channel A -evaluate set 60% -background 'rgba(0,0,0,0)' -rotate $(degree2 $1) top.png
 #convert top.png -transparent "#E95464" top.png
