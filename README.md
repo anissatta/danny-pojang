@@ -6,6 +6,7 @@
 ##### 準備するもの
 1. USBメモリー(容量は多い方がよいです) 
 2. 下記のISOファイル( https://www.debian.org/CD/live/ にリンクがあるのでそれをクリックしダウンロードして下さい。ないし下記リンクを直接入力して下さい) 
+  - ![fig](fig/live.png)
   - https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.4.0-amd64-xfce.iso
 
 ##### 起動用USBメモリーの作成方法 
