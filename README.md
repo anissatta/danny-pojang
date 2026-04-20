@@ -36,6 +36,7 @@ cd /home/user/danny-pojang
 qiv snap-xl.jpg
 ```
 
+- ![fig](fig/jap.jpg)
 ---- 
 
 ### 우선 해야 하는 일 
