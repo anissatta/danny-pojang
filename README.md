@@ -1,5 +1,19 @@
 # danny-pojang
 
+### Apr. 22 
+- After installing Debian Trixie to your VirtualBox, while adding a user named user, execute these (I'll test later myself):
+```shell
+su # (enter your root password) 
+apt-get install git
+exit
+git clone https://github.com/anissatta/danny-pojang.git
+cd danny-pojang
+su # (enter your root password) 
+sh step1.sh
+exit
+sh step2.sh
+```
+
 ### 일본 쓰레기들을 위한 설명서 
 #### Danny(世間の噂となっている、24時間韓国のニュース記事を表示する例のプログラムです)を皆様のパソコンで実行してみる方法(Windowsユーザー向け) 
 
