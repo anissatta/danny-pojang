@@ -2,6 +2,7 @@
 
 ### Apr. 23 
 - https://anissatta.github.io/d/
+- ![danny](fig/danny.png)
 
 ### Apr. 22 
 - After installing Debian Trixie to your VirtualBox, while adding a user named user, execute these (I'll test later myself):
