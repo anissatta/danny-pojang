@@ -2,7 +2,7 @@
 
 # as root, execute this script before starting anything else. 
 yes | apt-get update
-yes | apt-get install python3-venv pip gawk curl
+yes | apt-get install python3-venv pip gawk curl python3-feedparser
 yes | apt-get install ffmpeg gnuplot qiv
 yes | apt-get install imagemagick figlet
 yes | apt-get install wget w3m pup
